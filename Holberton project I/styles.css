@@ -1,0 +1,278 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+html, body{
+     
+        margin: 0;
+        height:100%;
+        width:100%;
+        padding:0;
+    
+}
+
+
+body {
+    background-image: url("https://i.ibb.co/1ZvdZk4/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Source Sans Pro", "Spin-Cycle-OT";
+    
+}
+
+
+header{
+    margin: auto;
+    margin-top: 41px;
+    max-width: 70%;
+    margin-bottom: 20px;
+}
+
+
+
+.mainlinks{
+    float: right;
+    word-spacing: 52px;
+    font-weight: bold;
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.bannerword{
+    font-size: 120px;
+    color: white;
+    margin-bottom: 0%;
+    max-height: 120px;
+}
+
+
+.smiles{
+    color: white;
+    word-spacing: 58px;
+    padding-top: 0%;
+    max-height: 100px;
+}
+
+
+.register{
+    background-color: #C271FF;
+    font-weight: bolder;
+    color: white;
+    align-items: center;
+    border: none;
+    border-radius: 22px;
+    margin: 30px auto;
+    padding: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 19), ;
+}
+
+
+.links{
+    float: right;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.pros{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 200px 0px auto;
+}
+
+
+.learnheading{
+    color: white;
+    font-weight: 32;
+
+}
+
+.learnword{
+    color: #C271FF;
+    font-weight: bold;
+}
+
+
+.persons{
+    display: flex;
+    margin: 63px auto;
+    
+}
+
+.names{
+    color: white;
+    margin: 3px 1px auto;
+}
+
+
+
+.paddingclass{
+    color: white;
+    padding: 50px;
+    
+}
+
+.paddingclass p{
+    margin: 6px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quotecont{
+    background-color: #C271FF;
+    padding: 80px;
+    margin: auto;  
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.quotetext{
+    color: white;
+    text-align: left;
+    margin: auto 53px;
+}
+
+.quotetext p {
+    margin: auto;
+}
+
+blockquote{
+    margin: 10px auto;
+}
+
+.tutorialheading{
+    font-weight: 32;
+}
+
+.popular{
+    color:#C271FF;
+    font-weight: bold;
+}
+
+.tutorials h2{
+    font-size: 16px;
+}
+
+.tutorials p{
+    font-size: 14px;
+}
+
+.tutorials{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    
+}
+
+.alltutorials{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+
+.tutorials1 p{
+    margin: 0;
+    text-align: left;
+}
+
+
+
+.lorem{
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+.lorem h1{
+    font-size: 32;
+    margin: 0px auto 80px;
+}
+
+.smilefaces{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.smilefaces div{
+    margin: auto 80px;
+    max-width: 10%;
+}
+
+.register2{
+    background-color: #C271FF;
+    font-weight: bolder;
+    color: white;
+    align-items: center;
+    border: none;
+    border-radius: 22px;
+    margin: 80px 0px auto;
+    padding: 15px;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0), ;
+}
+
+
+.FAQ{
+    text-align: center;
+}
+
+.FAQ h1{
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+
+ .faqinside{
+    display: flex;
+    justify-content: center;
+    
+    text-align: left;
+}
+
+.faqinside p{
+    font-weight: lighter;
+}
+
+.faqinside h2{
+    font-size: 16px;
+}
+
+
+.separated{
+    max-width: 20%;
+    margin: auto 200px;
+}
+ 
+footer{
+    background-color: #071629;
+}
+
+.footercontent{
+    
+}
+
+.socialmedia{
+    float: right;
+    word-spacing: 20px;
+}
+
+.footercontent p{
+    text-align: center;
+}
